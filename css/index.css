@@ -10,6 +10,9 @@ body {
 * {
   margin: 5%;
 }
+body{
+  background-color: darkcyan;
+}
 .top {
   justify-content: center;
   border: 3px solid black;
@@ -53,6 +56,7 @@ body {
 }
 .Skills {
   width: 50%;
+  background-color: bisque;
 }
 .Skills h2 {
   text-align: center;
@@ -63,6 +67,7 @@ body {
 .Work-his ul {
   border: 2px solid black;
   text-align: center;
+  background-color:beige;
 }
 .Work-his h2 {
   border: 1px solid black;

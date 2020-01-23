@@ -58,3 +58,135 @@ html, body {
 	
 }
 /* Compile your LESS file! */
+
+@accent-color: #1C5B8C;
+@header-background: #FEAD6F;
+
+  
+  .top {
+	justify-content: center;
+	border: 3px solid black;
+	background-color: @header-background;
+	margin-right: 10%;
+	margin-left: 10%;
+  
+  h1 {
+	font-size: 250%;
+	text-align: center;
+	color: @accent-color;
+  }
+   h2 {
+	font-size: 120%;
+	text-align: center;
+	color: @accent-color;
+   }
+   nav a {
+	text-decoration: none;
+	font-size: 160%;
+	color: white;
+	width: 100%;
+	border-bottom: 1px dotted black;
+	word-spacing: 5%;
+   }
+
+   img {
+	width: 70%;
+	margin-left: 15%;
+   }
+   nav{
+	   text-align: center;
+	   word-spacing: 5%;
+   }
+}
+  .section1 {
+	display: flex;
+	flex-direction: row;
+  }
+  .Intro {
+	  font-size: 200%;
+	border: 1px solid black;
+	width: 50%;
+	background-color: slategray;
+	color: black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+  }
+  .Intro h2 {
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+  }
+  .Skills {
+	width: 50%;
+	background-color: bisque;
+	.Intro();
+  
+	h2 {
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+  }
+}
+  .Work-his {
+
+	width: 90%;
+  .Intro();
+  margin-left: 25%;
+
+   ul {
+	border: 2px solid black;
+	text-align: center;
+	background-color:beige;
+  }
+   h2 {
+	border: 1px solid black;
+	background-color: #1A818D;
+  }
+}
+  .Contact h2 {
+	text-align: center;
+  
+  }
+  .Contact h5{
+	font-size: 200%;
+	border-bottom: 1px solid black;
+	width: 40%;
+	margin-left: 30%;
+	text-align: center;
+  }
+  @media (max-width: 600px) {
+	  .top{
+		  margin-left: 20%;
+	  }
+	.top nav {
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	  margin-right: 15%;
+	}
+	.section1 {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.Intro {
+	  width: 100%;
+	  margin-right: 30%;
+	  font-size: 120%;
+	}
+	.Skills {
+	  .Intro();
+  
+	}
+	.Work-his{
+		font-size: 120%;
+		margin-left: 30%;
+	}
+	.Contact h5{
+		font-size: 100%;
+		margin-left: 30%;
+	}
+	
+  }
